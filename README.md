@@ -38,8 +38,8 @@ Impacto: Isso pode dificultar a compreensão do código por outros desenvolvedor
 <table>
   <tr>
     <td><img src="Engenharia de Software/Cidade.png" width="300"></td>
-    <td><img src="Engenharia de Software/Predio.jpg" width="300"></td>
-    <td><img src="Engenharia de Software/Personagem.jpg" width="300"></td>
+    <td><img src="Engenharia de Software/Predio.png" width="300"></td>
+    <td><img src="Engenharia de Software/Personagem.png" width="300"></td>
   </tr>
 </table>
 
