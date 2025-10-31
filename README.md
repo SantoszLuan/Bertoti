@@ -30,4 +30,8 @@ Otimização de desempenho vs. legibilidade
 Trade-off: Tornar um sistema mais rápido às vezes exige técnicas complexas, como processamento paralelo ou caching agressivo.
 Impacto: Isso pode dificultar a compreensão do código por outros desenvolvedores. Um exemplo real é o caso do Google Chrome, que utiliza múltiplos processos e otimizações profundas para desempenho — o que torna o código extremamente eficiente, mas também muito mais complexo de entender e manter.
 
-<h2>Diagrama UML</h2>
+<h2>4. Diagrama UML</h2>
+ <img src="Engenharia de Software/UML,jpg" width="600">
+
+<h2>5. Java</h2>
+ 
