@@ -53,7 +53,8 @@ Impacto: Isso pode dificultar a compreensão do código por outros desenvolvedor
   </tr>
 </table>
 
-<h2>7. SQL Lite</h2>
+<h2>7. SQL Lite - ProjetoBiblioteca</h2>
+<img src="Engenharia de Software/SQLite.png" width="500">
 
 <h2>8. Ollhama</h2>
 
