@@ -1,32 +1,33 @@
-<center> <h1> Software Engineering at Google, Oreilly. </h1> </center>
+<center><h1>Software Engineering at Google — O’Reilly</h1></center> <h2>1. Primeiro Trecho - Software Engineering at Google, Oreilly.</h2>
 
-<h2> Primeiro Trecho: </h2>
-Discute a diferença entre programação, ciência da computação e engenharia de software. Ele destaca que, embora muitas vezes sejam tratados como sinônimos, cada termo tem um foco diferente. A ciência da computação é mais teórica; programação é o ato de escrever código; já a engenharia de software envolve aplicar conhecimento técnico de forma sistemática para construir sistemas reais e confiáveis. Também compara a engenharia de software com outras engenharias tradicionais (como a civil ou a aeronáutica), que têm processos rigorosos e consequências diretas no mundo físico. A engenharia de software ainda não tem esse mesmo nível de rigor, mas deveria caminhar nessa direção — principalmente porque hoje os softwares impactam cada vez mais o nosso cotidiano. O objetivo é que os desenvolvedores adotem práticas mais sérias e sustentáveis, assim como em outras engenharias.
+O texto discute as diferenças fundamentais entre programação, ciência da computação e engenharia de software, que muitas vezes são tratadas como sinônimos, mas na verdade têm focos bem distintos.
+A ciência da computação é voltada para o lado teórico — algoritmos, estruturas de dados, e princípios matemáticos que sustentam a tecnologia.
+A programação é a prática de transformar essas ideias em código executável.
+Já a engenharia de software é a aplicação sistemática de conhecimento técnico e boas práticas para construir sistemas reais, escaláveis e confiáveis.
 
-<h2> Segundo Trecho: </h2>
-Amplia a definição de engenharia de software, explicando que ela vai muito além de apenas programar. Envolve tudo o que é necessário para manter um software útil e saudável com o passar do tempo: ferramentas, processos, manutenção, escalabilidade, e decisões estratégicas. Um conceito central do trecho é o de “programação integrada ao longo do tempo”. Isso quer dizer que não basta escrever um código que funcione hoje — ele precisa continuar funcionando bem no futuro, se adaptar a mudanças, e ser compreensível para outras pessoas ao longo do tempo.
+O texto também compara a engenharia de software com outras engenharias tradicionais, como a civil ou a aeronáutica, nas quais existem processos rigorosos e consequências físicas diretas — um erro em uma ponte ou avião pode causar danos concretos.
+O software, por outro lado, é intangível: ele não ocupa espaço físico nem pode ser tocado, mas seus efeitos são muito reais. Um simples erro de código pode afetar milhões de pessoas — como uma falha em um aplicativo bancário que impede saques ou um bug em um sistema hospitalar que compromete dados de pacientes.
 
-<h2> 3 Exemplos de Trade-Offs: </h2>
+Por isso, a engenharia de software precisa buscar o mesmo rigor e responsabilidade das engenharias tradicionais, já que hoje a maior parte do mundo depende de sistemas digitais confiáveis. O objetivo é que desenvolvedores adotem práticas mais sérias, éticas e sustentáveis — projetando não apenas para o presente, mas também para o futuro.
 
-1. Velocidade de desenvolvimento vs. qualidade do código
+<h2>2. Segundo Trecho -Software Engineering at Google, Oreilly.</h2>
 
-Trade-off: Escrever código rapidamente pode ser necessário em fases iniciais de um projeto ou quando há pressão por entrega, mas isso geralmente compromete a qualidade do código.
+A engenharia de software vai muito além de simplesmente escrever código. Ela envolve todo o ciclo de vida do software — ferramentas, processos, manutenção, escalabilidade e decisões estratégicas que garantem que o sistema continue útil e saudável ao longo do tempo.
 
-Impacto: Código mal projetado tende a gerar problemas futuros, como bugs difíceis de resolver ou dificuldade de manutenção.
+Um conceito central é o de “programação integrada ao longo do tempo”. Isso significa que não basta criar algo que funcione hoje: o software precisa ser capaz de evoluir, se adaptar a novas necessidades e ser compreendido por outras pessoas no futuro. Um sistema bem projetado é aquele que envelhece bem — que pode ser atualizado sem quebrar tudo, e que continua fazendo sentido mesmo anos depois da sua criação.
 
+<h2>3. Exemplos de Trade-Offs com Situações Reais:</h2>
 
-2. Reutilização de código vs. complexidade
+Velocidade de desenvolvimento vs. qualidade do código
+Trade-off: Às vezes é preciso desenvolver algo rapidamente — por exemplo, quando uma startup lança uma nova versão do aplicativo para aproveitar uma oportunidade de mercado.
+Impacto: O código escrito às pressas pode acumular “dívida técnica”, tornando o sistema frágil e difícil de manter. Um caso real é o do Twitter, que em seus primeiros anos priorizou velocidade de entrega e depois teve que reescrever partes críticas do sistema para corrigir falhas de escalabilidade e performance.
 
-Trade-off: Criar código altamente reutilizável (por exemplo, bibliotecas genéricas) pode tornar o sistema mais modular, mas também pode introduzir mais abstrações e complexidade desnecessária.
+Reutilização de código vs. complexidade
+Trade-off: Criar bibliotecas genéricas e reutilizáveis é ótimo para projetos grandes, mas pode ser um exagero em contextos simples.
+Impacto: Em um projeto pequeno, como o site de uma empresa local, tentar aplicar padrões excessivamente genéricos pode tornar o código mais difícil de entender e manter. Por outro lado, empresas como Google e Microsoft dependem fortemente de componentes reutilizáveis para manter consistência entre centenas de produtos — o que mostra que o equilíbrio depende da escala e do contexto.
 
-Impacto: Em projetos menores, isso pode dificultar a compreensão do código; em projetos maiores, pode ser essencial para manter consistência e escalabilidade.
+Otimização de desempenho vs. legibilidade
+Trade-off: Tornar um sistema mais rápido às vezes exige técnicas complexas, como processamento paralelo ou caching agressivo.
+Impacto: Isso pode dificultar a compreensão do código por outros desenvolvedores. Um exemplo real é o caso do Google Chrome, que utiliza múltiplos processos e otimizações profundas para desempenho — o que torna o código extremamente eficiente, mas também muito mais complexo de entender e manter.
 
-3. Otimização de desempenho vs. legibilidade
-
-Trade-off: Melhorar a performance de um sistema às vezes exige técnicas mais complexas ou menos intuitivas (como manipulação de baixo nível, caching, paralelismo).
-
-Impacto: Isso pode tornar o código mais difícil de entender e manter, mesmo que ele seja mais rápido na execução.
-
-
-
-
+<h2>Diagrama UML</h2>
