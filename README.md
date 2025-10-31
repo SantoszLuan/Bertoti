@@ -55,20 +55,26 @@ Impacto: Isso pode dificultar a compreensão do código por outros desenvolvedor
 </table>
 
 <h2>7. SQL Lite - ProjetoBiblioteca</h2>
-Aluno <img src="Engenharia de Software/Aluno.png" width="500">
+🧑‍🎓 Aluno
+<img src="Engenharia de Software/Aluno.png" width="500">
 
-Biblioteca <img src="Engenharia de Software/Biblioteca.png" width="500">
+📚 Biblioteca
+<img src="Engenharia de Software/Biblioteca.png" width="500">
 
-Database <img src="Engenharia de Software/Database_1.png" width="500"> 
-<img src="Engenharia de Software/Database_2.png" width="500">
+🗄️ Database
+<img src="Engenharia de Software/Database_1.png" width="500"> <img src="Engenharia de Software/Database_2.png" width="500">
 
-Livro <img src="Engenharia de Software/Livro.png" width="500"> 
+📖 Livro
+<img src="Engenharia de Software/Livro.png" width="500">
 
-Sala de Aula <img src="Engenharia de Software/SaladeAula.png" width="500">
+🏫 Sala de Aula
+<img src="Engenharia de Software/SaladeAula.png" width="500">
 
-Usuário <img src="Engenharia de Software/Usuario.png" width="500"> 
+👤 Usuário
+<img src="Engenharia de Software/Usuario.png" width="500">
 
-Main <img src="Engenharia de Software/Main.png" width="500"> 
+▶️ Main
+<img src="Engenharia de Software/Main.png" width="500">
 
 <h2>8. Ollhama</h2>
 <img src="Engenharia de Software/Ollama.png" width="700">
