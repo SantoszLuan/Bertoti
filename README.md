@@ -58,6 +58,6 @@ Impacto: Isso pode dificultar a compreensão do código por outros desenvolvedor
 <img src="Engenharia de Software/SQLite.png" width="500">
 
 <h2>8. Ollhama</h2>
-<img src="Engenharia de Software/ollhama.png" width="700">
+<img src="Engenharia de Software/Ollhama.png" width="700">
 
  
