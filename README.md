@@ -45,6 +45,14 @@ Impacto: Isso pode dificultar a compreensão do código por outros desenvolvedor
 
 <h2>6. Testes Automatizados</h2>
 
+<table>
+  <tr>
+    <td><img src="Engenharia de Software/Teste_Cidade.png" width="600"></td>
+    <td><img src="Engenharia de Software/Teste_Predio.png" width="600"></td>
+    <td><img src="Engenharia de Software/Teste_Personagem.png" width="600"></td>
+  </tr>
+</table>
+
 <h2>7. SQL Lite</h2>
 
 <h2>8. Ollhama</h2>
