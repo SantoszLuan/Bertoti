@@ -35,6 +35,14 @@ Impacto: Isso pode dificultar a compreensão do código por outros desenvolvedor
 
 <h2>5. Java</h2>
 
+<table>
+  <tr>
+    <td><img src="Engenharia de Software/Cidade.png" width="300"></td>
+    <td><img src="Engenharia de Software/Predio.jpg" width="300"></td>
+    <td><img src="Engenharia de Software/Personagem.jpg" width="300"></td>
+  </tr>
+</table>
+
 <h2>6. Testes Automatizados</h2>
 
 <h2>7. SQL Lite</h2>
