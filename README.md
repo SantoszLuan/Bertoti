@@ -253,13 +253,97 @@ public class Main {
 
 <h2>6. Testes Automatizados</h2>
 
-<table>
-  <tr>
-    <td><img src="Engenharia de Software/Teste_Cidade.png" width="600"></td>
-    <td><img src="Engenharia de Software/Teste_Predio.png" width="600"></td>
-    <td><img src="Engenharia de Software/Teste_Personagem.png" width="600"></td>
-  </tr>
-</table>
+<h3>Cliente </h3> 
+<pre><code class="language-java">
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class ClienteTest {
+
+    @Test
+    public void testRegistrar() {
+        Cliente cliente = new Cliente("Luan", "luan@email.com", "Compra mensal", 100);
+        assertEquals("Luan", cliente.getNomeCliente());
+        assertEquals(100, cliente.getSaldo());
+    }
+
+    @Test
+    public void testAtualizarPerfil() {
+        Cliente cliente = new Cliente("Maria", "maria@teste.com", "Primeira compra", 50);
+        cliente.atualizarPerfil("maria@nova.com", 80);
+        assertEquals("maria@nova.com", cliente.getEmail());
+        assertEquals(80, cliente.getSaldo());
+    }
+
+    @Test
+    public void testDeletarPerfil() {
+        Cliente cliente = new Cliente("Carlos", "carlos@teste.com", "Compra única", 30);
+        assertDoesNotThrow(cliente::deletarPerfil);
+    }
+}
+</code></pre>
+
+<h3> Produto </h3>
+<pre><code class="language-java">
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class ProdutoTest {
+
+    @Test
+    public void testCriacaoProduto() {
+        Produto produto = new Produto(1, "Arroz", 10.5, 100);
+        assertEquals(1, produto.getCodigo());
+        assertEquals("Arroz", produto.getNome());
+        assertEquals(10.5, produto.getPreco());
+        assertEquals(100, produto.getQuantidadeEstoque());
+    }
+
+    @Test
+    public void testAtualizarEstoque() {
+        Produto produto = new Produto(2, "Feijão", 8.0, 50);
+        produto.atualizarEstoque(70);
+        assertEquals(70, produto.getQuantidadeEstoque());
+    }
+}
+</code></pre>
+
+<h3> Venda </h3>
+<pre><code class="language-java">
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+import java.util.*;
+
+public class VendaTest {
+
+    @Test
+    public void testCalcularTotal() {
+        Produto p1 = new Produto(1, "Arroz", 10.0, 10);
+        Produto p2 = new Produto(2, "Feijão", 8.0, 5);
+
+        List<Produto> produtos = Arrays.asList(p1, p2);
+        Venda venda = new Venda(1001, new Date(), produtos);
+
+        double totalEsperado = 18.0;
+        assertEquals(totalEsperado, venda.calcularTotal());
+    }
+
+    @Test
+    public void testGerarNotaFiscal() {
+        Produto p1 = new Produto(3, "Leite", 5.5, 20);
+        List<Produto> produtos = Collections.singletonList(p1);
+
+        Venda venda = new Venda(2002, new Date(), produtos);
+        assertDoesNotThrow(venda::gerarNotaFiscal);
+    }
+
+    @Test
+    public void testSettersAndGetters() {
+        Venda venda = new Venda(3003, new Date(), new ArrayList<>());
+        venda.setValorTotal(50.0);
+        assertEquals(50.0, venda.getValorTotal());
+    }
+</code></pre>
 
 <h2>7. SQL Lite - ProjetoBiblioteca</h2>
 <h3>🧑‍🎓 Aluno</h3>
