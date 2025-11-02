@@ -35,7 +35,7 @@ Impacto: Isso pode dificultar a compreensão do código por outros desenvolvedor
  <img src="Engenharia de Software/UML.jpg" width="600">
 
 <h2>5. Java</h2>
-<h1> Cliente </h1>
+<h3> Cliente </h3>
  <pre><code class="language-java">
 public class Cliente {
     private String nomeCliente;
@@ -99,6 +99,155 @@ public class Cliente {
         this.saldo = saldo;
     }
 }
+</code></pre>
+
+<h3> Produto </h3>
+<pre><code class="language-java">
+ public class Produto {
+    private int codigo;
+    private String nome;
+    private double preco;
+    private int quantidadeEstoque;
+
+    // Construtor
+    public Produto(int codigo, String nome, double preco, int quantidadeEstoque) {
+        this.codigo = codigo;
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidadeEstoque = quantidadeEstoque;
+    }
+
+    // Métodos
+    public void atualizarEstoque(int novaQuantidade) {
+        this.quantidadeEstoque = novaQuantidade;
+        System.out.println("Estoque do produto " + nome + " atualizado para " + novaQuantidade + " unidades.");
+    }
+
+    // Getters e Setters
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public int getQuantidadeEstoque() {
+        return quantidadeEstoque;
+    }
+
+    public void setQuantidadeEstoque(int quantidadeEstoque) {
+        this.quantidadeEstoque = quantidadeEstoque;
+    }
+}
+</code></pre>
+
+<h3>Venda</h3>
+<pre><code class="language-java">
+import java.util.Date;
+import java.util.List;
+
+public class Venda {
+    private int numero;
+    private Date data;
+    private double valorTotal;
+    private List<Produto> produtos;
+
+    // Construtor
+    public Venda(int numero, Date data, List<Produto> produtos) {
+        this.numero = numero;
+        this.data = data;
+        this.produtos = produtos;
+        this.valorTotal = calcularTotal();
+    }
+
+    // Métodos
+    public double calcularTotal() {
+        double total = 0;
+        for (Produto p : produtos) {
+            total += p.getPreco();
+        }
+        this.valorTotal = total;
+        return total;
+    }
+
+    public void gerarNotaFiscal() {
+        System.out.println("Nota Fiscal da Venda nº " + numero);
+        System.out.println("Data: " + data);
+        for (Produto p : produtos) {
+            System.out.println("- " + p.getNome() + " | R$ " + p.getPreco());
+        }
+        System.out.println("Total: R$ " + valorTotal);
+    }
+
+    // Getters e Setters
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public Date getData() {
+        return data;
+    }
+
+    public void setData(Date data) {
+        this.data = data;
+    }
+
+    public double getValorTotal() {
+        return valorTotal;
+    }
+
+    public void setValorTotal(double valorTotal) {
+        this.valorTotal = valorTotal;
+    }
+
+    public List<Produto> getProdutos() {
+        return produtos;
+    }
+
+    public void setProdutos(List<Produto> produtos) {
+        this.produtos = produtos;
+    }
+}
+</code></pre>
+
+<h3> Main </h3>
+<pre><code class="language-java">
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Produto p1 = new Produto(1, "Arroz", 10.5, 50);
+        Produto p2 = new Produto(2, "Feijão", 8.0, 30);
+
+        Cliente cliente = new Cliente("Luan", "luan@email.com", "Compra semanal", 200);
+        cliente.registrar();
+
+        List<Produto> produtos = Arrays.asList(p1, p2);
+
+        Venda venda = new Venda(1001, new Date(), produtos);
+        venda.gerarNotaFiscal();
+    }
 }
 </code></pre>
 
