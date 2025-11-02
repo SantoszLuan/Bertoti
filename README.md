@@ -35,14 +35,72 @@ Impacto: Isso pode dificultar a compreensão do código por outros desenvolvedor
  <img src="Engenharia de Software/UML.jpg" width="600">
 
 <h2>5. Java</h2>
+<h1> Cliente </h1>
+ <pre><code class="language-java">
+public class Cliente {
+    private String nomeCliente;
+    private String email;
+    private String infoCompras;
+    private float saldo;
 
-<table>
-  <tr>
-    <td><img src="Engenharia de Software/Cidade.png" width="300"></td>
-    <td><img src="Engenharia de Software/Predio.png" width="300"></td>
-    <td><img src="Engenharia de Software/Personagem.png" width="300"></td>
-  </tr>
-</table>
+    // Construtor
+    public Cliente(String nomeCliente, String email, String infoCompras, float saldo) {
+        this.nomeCliente = nomeCliente;
+        this.email = email;
+        this.infoCompras = infoCompras;
+        this.saldo = saldo;
+    }
+
+    // Métodos
+    public void registrar() {
+        System.out.println("Cliente " + nomeCliente + " registrado com sucesso!");
+    }
+
+    public void deletarPerfil() {
+        System.out.println("Perfil do cliente " + nomeCliente + " foi deletado.");
+    }
+
+    public void atualizarPerfil(String novoEmail, float novoSaldo) {
+        this.email = novoEmail;
+        this.saldo = novoSaldo;
+        System.out.println("Perfil do cliente " + nomeCliente + " atualizado.");
+    }
+
+    // Getters e Setters
+    public String getNomeCliente() {
+        return nomeCliente;
+    }
+
+    public void setNomeCliente(String nomeCliente) {
+        this.nomeCliente = nomeCliente;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getInfoCompras() {
+        return infoCompras;
+    }
+
+    public void setInfoCompras(String infoCompras) {
+        this.infoCompras = infoCompras;
+    }
+
+    public float getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(float saldo) {
+        this.saldo = saldo;
+    }
+}
+}
+</code></pre>
 
 <h2>6. Testes Automatizados</h2>
 
