@@ -11,7 +11,7 @@ O software, por outro lado, é intangível: ele não ocupa espaço físico nem p
 
 Por isso, a engenharia de software precisa buscar o mesmo rigor e responsabilidade das engenharias tradicionais, já que hoje a maior parte do mundo depende de sistemas digitais confiáveis. O objetivo é que desenvolvedores adotem práticas mais sérias, éticas e sustentáveis — projetando não apenas para o presente, mas também para o futuro.
 
-<h2>2. Segundo Trecho -Software Engineering at Google, Oreilly.</h2>
+<h1>2. Segundo Trecho -Software Engineering at Google, Oreilly.</h1>
 
 A engenharia de software vai muito além de simplesmente escrever código. Ela envolve todo o ciclo de vida do software — ferramentas, processos, manutenção, escalabilidade e decisões estratégicas que garantem que o sistema continue útil e saudável ao longo do tempo.
 
