@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies CRUD</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Cadastro de Filmes: </h1>
+
+<div class="form">
+
+    <input
+            type="text"
+            id="name"
+            placeholder="Nome do Filme"
+    >
+
+    <input
+            type="text"
+            id="genre"
+            placeholder="Gênero"
+    >
+
+    <input
+            type="text"
+            id="director"
+            placeholder="Diretor"
+    >
+
+    <input
+            type="number"
+            id="year"
+            placeholder="Ano"
+    >
+
+    <button onclick="addMovie()">
+        Adicionar
+    </button>
+
+    <button onclick="updateMovie()">
+        Atualizar
+    </button>
+
+</div>
+
+<table>
+
+    <thead>
+
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Gênero</th>
+        <th>Diretor</th>
+        <th>Ano</th>
+    </tr>
+
+    </thead>
+
+    <tbody id="table-body"></tbody>
+
+</table>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
