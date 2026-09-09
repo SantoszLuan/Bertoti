@@ -69,7 +69,23 @@ Durante o desenvolvimento, foram utilizadas ferramentas de gerenciamento e organ
 
 **Atuei como Desenvolvedor:** Fui responsável pelo desenvolvimento da lógica da aplicação, trabalhando na integração entre as diferentes partes do sistema. Minha atuação envolveu a comunicação entre o banco de dados, back-end e front-end, garantindo que as informações fossem processadas e transmitidas corretamente entre os componentes.
 
-Também participei da implementação das funcionalidades necessárias para o funcionamento do sistema, contribuindo para transformar os requisitos definidos para o projeto em soluções funcionais.
+Também participei da implementação das funcionalidades necessárias para o funcionamento do sistema, contribuindo para transformar os requisitos definidos para o projeto em soluções funcionais. Durante esse processo, busquei compreender as necessidades do sistema e aplicar soluções que fossem adequadas à estrutura da aplicação.
+
+Participei do desenvolvimento e da manutenção das funcionalidades do back-end, utilizando Java e Spring Boot para implementar regras de negócio, estruturar os serviços da aplicação e realizar a comunicação com o banco de dados. Também trabalhei na criação e integração das APIs responsáveis pela comunicação entre o back-end e as demais partes do sistema.
+
+Uma parte importante da minha contribuição esteve relacionada à integração com o banco de dados MySQL. Trabalhei com o acesso, armazenamento e recuperação das informações utilizadas pela aplicação, buscando garantir que os dados fossem corretamente tratados e disponibilizados para as funcionalidades do sistema.
+
+Também participei da identificação e correção de problemas encontrados durante o desenvolvimento. Sempre que surgiam erros ou comportamentos inesperados, procurei analisar a origem do problema, testar possíveis soluções e realizar os ajustes necessários para que a funcionalidade voltasse a operar corretamente.
+
+Além do desenvolvimento das funcionalidades, participei do processo de testes e validação da aplicação, verificando se os recursos implementados estavam funcionando de acordo com os requisitos definidos para o projeto. Essa etapa também envolveu a identificação de possíveis falhas de integração entre os componentes do sistema.
+
+Trabalhei utilizando Git e GitHub para controle de versão e organização do código, realizando o gerenciamento das alterações feitas durante o desenvolvimento e colaborando com os demais integrantes da equipe. Essa experiência também contribuiu para meu aprendizado sobre desenvolvimento colaborativo e organização de projetos utilizando repositórios compartilhados.
+
+Também participei das discussões técnicas da equipe, contribuindo na análise de problemas, definição de soluções e tomada de decisões relacionadas ao desenvolvimento. Busquei manter uma comunicação constante com os demais integrantes para facilitar a integração das funcionalidades desenvolvidas por cada membro.
+
+Durante o projeto, tive contato com diferentes etapas do desenvolvimento de software, desde a compreensão dos requisitos e implementação das funcionalidades até a integração, testes e correção de problemas. Essa experiência me permitiu compreender melhor como as diferentes áreas de uma aplicação precisam trabalhar em conjunto para que o sistema funcione de maneira adequada.
+
+A participação no projeto também contribuiu para meu desenvolvimento profissional, principalmente por proporcionar uma experiência prática de desenvolvimento em equipe, utilização de tecnologias empregadas no mercado e aplicação dos conhecimentos adquiridos durante minha formação acadêmica.
 
 ### Hard Skills
 
