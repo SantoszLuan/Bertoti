@@ -67,25 +67,198 @@ Durante o desenvolvimento, foram utilizadas ferramentas de gerenciamento e organ
 
 ### Contribuições Pessoais
 
-**Atuei como Desenvolvedor:** Fui responsável pelo desenvolvimento da lógica da aplicação, trabalhando na integração entre as diferentes partes do sistema. Minha atuação envolveu a comunicação entre o banco de dados, back-end e front-end, garantindo que as informações fossem processadas e transmitidas corretamente entre os componentes.
+**Atuei como Desenvolvedor:** ### Contribuições Pessoais
 
-Também participei da implementação das funcionalidades necessárias para o funcionamento do sistema, contribuindo para transformar os requisitos definidos para o projeto em soluções funcionais. Durante esse processo, busquei compreender as necessidades do sistema e aplicar soluções que fossem adequadas à estrutura da aplicação.
+Atuei como **Desenvolvedor** no projeto Bifrost Connect, participando diretamente da implementação das funcionalidades do sistema, desenvolvimento das regras de negócio e integração entre Backend, Banco de Dados e Frontend. Minha atuação esteve concentrada principalmente na transformação dos requisitos levantados pela equipe em funcionalidades efetivamente implementadas e integradas ao sistema.
 
-Participei do desenvolvimento e da manutenção das funcionalidades do back-end, utilizando Java e Spring Boot para implementar regras de negócio, estruturar os serviços da aplicação e realizar a comunicação com o banco de dados. Também trabalhei na criação e integração das APIs responsáveis pela comunicação entre o back-end e as demais partes do sistema.
+Durante o desenvolvimento, participei das seguintes User Stories e atividades:
 
-Uma parte importante da minha contribuição esteve relacionada à integração com o banco de dados MySQL. Trabalhei com o acesso, armazenamento e recuperação das informações utilizadas pela aplicação, buscando garantir que os dados fossem corretamente tratados e disponibilizados para as funcionalidades do sistema.
+#### US01 – Cadastro e gerenciamento de usuários
 
-Também participei da identificação e correção de problemas encontrados durante o desenvolvimento. Sempre que surgiam erros ou comportamentos inesperados, procurei analisar a origem do problema, testar possíveis soluções e realizar os ajustes necessários para que a funcionalidade voltasse a operar corretamente.
+* Desenvolvimento da funcionalidade responsável pelo cadastro de novos usuários na plataforma.
+* Implementação do recebimento e processamento das informações enviadas pelo usuário.
+* Criação das regras necessárias para validar os dados antes de serem armazenados.
+* Implementação da consulta dos usuários cadastrados no sistema.
+* Desenvolvimento das funcionalidades de alteração e atualização dos dados dos usuários.
+* Implementação da exclusão de usuários quando necessário.
+* Integração entre a camada responsável pelas requisições da aplicação e o Banco de Dados.
+* Tratamento das respostas retornadas pela API para garantir que as informações fossem apresentadas corretamente.
+* Tratamento de situações em que o usuário informado não fosse encontrado.
+* Implementação de validações para evitar o cadastro de informações inconsistentes ou incompletas.
+* Realização de testes nas operações de cadastro, consulta, alteração e exclusão.
+* Correção de erros encontrados durante a integração da funcionalidade com as demais partes do sistema.
 
-Além do desenvolvimento das funcionalidades, participei do processo de testes e validação da aplicação, verificando se os recursos implementados estavam funcionando de acordo com os requisitos definidos para o projeto. Essa etapa também envolveu a identificação de possíveis falhas de integração entre os componentes do sistema.
+#### US02 – Gerenciamento de perfis de acesso e permissões
 
-Trabalhei utilizando Git e GitHub para controle de versão e organização do código, realizando o gerenciamento das alterações feitas durante o desenvolvimento e colaborando com os demais integrantes da equipe. Essa experiência também contribuiu para meu aprendizado sobre desenvolvimento colaborativo e organização de projetos utilizando repositórios compartilhados.
+* Desenvolvimento da funcionalidade de gerenciamento dos diferentes perfis de usuários.
+* Implementação das regras responsáveis por determinar quais funcionalidades poderiam ser acessadas por cada perfil.
+* Criação da associação entre o usuário cadastrado e seu respectivo perfil de acesso.
+* Implementação das verificações necessárias antes da execução de determinadas operações.
+* Tratamento de situações em que um usuário não possuísse autorização para executar uma determinada ação.
+* Integração do controle de permissões com as demais funcionalidades do sistema.
+* Ajuste das regras de acesso conforme os requisitos definidos para cada tipo de usuário.
+* Realização de testes para verificar se as permissões estavam sendo aplicadas corretamente.
+* Correção de inconsistências relacionadas ao acesso às funcionalidades.
+* Garantia de que operações administrativas não fossem disponibilizadas para usuários sem a devida permissão.
 
-Também participei das discussões técnicas da equipe, contribuindo na análise de problemas, definição de soluções e tomada de decisões relacionadas ao desenvolvimento. Busquei manter uma comunicação constante com os demais integrantes para facilitar a integração das funcionalidades desenvolvidas por cada membro.
+#### US03 – Solicitação e gerenciamento de veículos
 
-Durante o projeto, tive contato com diferentes etapas do desenvolvimento de software, desde a compreensão dos requisitos e implementação das funcionalidades até a integração, testes e correção de problemas. Essa experiência me permitiu compreender melhor como as diferentes áreas de uma aplicação precisam trabalhar em conjunto para que o sistema funcione de maneira adequada.
+* Desenvolvimento da funcionalidade responsável pelo registro de solicitações de veículos.
+* Implementação do cadastro das informações relacionadas à solicitação.
+* Desenvolvimento das regras necessárias para controlar o ciclo de vida de uma solicitação.
+* Implementação dos diferentes estados da solicitação, permitindo acompanhar sua situação dentro do sistema.
+* Integração das solicitações com as informações dos veículos disponíveis.
+* Implementação da consulta das solicitações realizadas pelos usuários.
+* Desenvolvimento da atualização das informações de uma solicitação.
+* Tratamento das situações em que uma solicitação fosse aprovada, recusada ou permanecesse pendente.
+* Implementação das validações necessárias para impedir o envio de solicitações com informações incompletas.
+* Integração da funcionalidade com o Banco de Dados.
+* Desenvolvimento dos endpoints necessários para disponibilizar as operações por meio da API.
+* Realização de testes das operações de criação, consulta e atualização.
+* Correção de problemas encontrados durante a comunicação entre Frontend, Backend e Banco de Dados.
 
-A participação no projeto também contribuiu para meu desenvolvimento profissional, principalmente por proporcionar uma experiência prática de desenvolvimento em equipe, utilização de tecnologias empregadas no mercado e aplicação dos conhecimentos adquiridos durante minha formação acadêmica.
+#### US04 – Gerenciamento de viagens
+
+* Desenvolvimento da funcionalidade responsável pelo cadastro das viagens realizadas pelos veículos.
+* Implementação do registro das informações relacionadas à viagem.
+* Associação da viagem ao veículo utilizado.
+* Implementação do registro das informações necessárias para identificar origem, destino e período da viagem.
+* Desenvolvimento das regras responsáveis pelo controle do status da viagem.
+* Implementação da consulta das viagens cadastradas.
+* Desenvolvimento da atualização dos dados das viagens.
+* Tratamento das alterações de status durante o processo de utilização do veículo.
+* Implementação de validações para evitar registros incompletos ou inconsistentes.
+* Integração das informações das viagens com os dados armazenados no Banco de Dados.
+* Criação e ajuste dos endpoints responsáveis pelo gerenciamento das viagens.
+* Realização de testes para verificar o funcionamento das operações.
+* Correção de erros encontrados durante a implementação e integração da funcionalidade.
+
+#### US05 – Controle de quilometragem dos veículos
+
+* Implementação da funcionalidade destinada ao registro da quilometragem dos veículos.
+* Desenvolvimento das regras responsáveis pela atualização dos dados de quilometragem.
+* Associação dos registros de quilometragem aos respectivos veículos.
+* Implementação de validações para evitar o registro de valores incorretos.
+* Tratamento de situações em que a quilometragem informada fosse incompatível com registros anteriores.
+* Desenvolvimento da consulta das informações de quilometragem.
+* Integração dos registros com as informações existentes sobre cada veículo.
+* Implementação da comunicação entre a funcionalidade e o Banco de Dados.
+* Desenvolvimento dos endpoints necessários para disponibilizar as operações.
+* Realização de testes para verificar a persistência e recuperação dos dados.
+* Correção de inconsistências identificadas durante os testes.
+* Ajustes na implementação para garantir que as informações permanecessem consistentes ao longo do histórico do veículo.
+
+#### US06 – Gerenciamento de manutenções
+
+* Desenvolvimento da funcionalidade destinada ao controle das manutenções realizadas nos veículos.
+* Implementação do cadastro de uma nova manutenção.
+* Associação da manutenção ao veículo correspondente.
+* Registro das informações relacionadas ao serviço realizado.
+* Implementação do controle do status da manutenção.
+* Desenvolvimento da consulta das manutenções registradas.
+* Implementação da atualização das informações de uma manutenção.
+* Tratamento das diferentes etapas do processo de manutenção.
+* Desenvolvimento das regras necessárias para manter o histórico das intervenções realizadas nos veículos.
+* Integração das informações de manutenção com os dados dos veículos.
+* Implementação da persistência dos registros no Banco de Dados.
+* Desenvolvimento dos endpoints responsáveis pelas operações de manutenção.
+* Realização de testes das operações implementadas.
+* Identificação e correção de erros durante a integração da funcionalidade.
+* Ajustes nas regras de negócio para garantir que o fluxo de manutenção funcionasse de acordo com os requisitos definidos para o sistema.
+
+#### US07 – Fluxo de aprovação das solicitações
+
+* Implementação do processo de aprovação e rejeição das solicitações realizadas pelos usuários.
+* Desenvolvimento das regras responsáveis por controlar quem poderia aprovar ou rejeitar uma solicitação.
+* Implementação da alteração do status da solicitação após uma decisão.
+* Tratamento das solicitações que permanecessem aguardando aprovação.
+* Integração do processo de aprovação com o controle de perfis e permissões.
+* Implementação das validações necessárias para impedir alterações indevidas no status.
+* Desenvolvimento da comunicação entre o fluxo de aprovação e os dados armazenados no Banco de Dados.
+* Implementação dos endpoints necessários para realizar as ações de aprovação e rejeição.
+* Tratamento das respostas retornadas pela API.
+* Realização de testes simulando diferentes situações do processo de aprovação.
+* Correção de problemas relacionados à alteração dos estados das solicitações.
+* Ajustes no fluxo para garantir que uma solicitação seguisse corretamente as etapas estabelecidas pelas regras de negócio.
+
+#### US08 – Integração com o Banco de Dados
+
+* Desenvolvimento da comunicação entre as funcionalidades do Backend e o Banco de Dados.
+* Implementação das operações necessárias para inserir informações.
+* Desenvolvimento das consultas utilizadas pelas funcionalidades do sistema.
+* Implementação das operações de atualização dos registros.
+* Implementação das operações de exclusão quando necessárias.
+* Criação e utilização das estruturas responsáveis por realizar a comunicação com os dados persistidos.
+* Tratamento de erros relacionados às operações de Banco de Dados.
+* Ajuste das consultas para garantir o retorno correto das informações.
+* Integração dos dados de usuários, veículos, solicitações, viagens, quilometragem e manutenções.
+* Validação da consistência dos dados recebidos pelo Backend.
+* Identificação e correção de problemas de integração.
+* Realização de testes de persistência e recuperação das informações.
+* Ajustes nas operações de Banco de Dados conforme as necessidades das funcionalidades implementadas.
+
+#### US09 – Desenvolvimento das APIs do sistema
+
+* Desenvolvimento dos endpoints necessários para disponibilizar as funcionalidades implementadas.
+* Definição das operações responsáveis por criar, consultar, atualizar e remover informações.
+* Organização das requisições de acordo com as responsabilidades de cada funcionalidade.
+* Implementação do recebimento dos dados enviados pelo Frontend.
+* Processamento das informações recebidas pelo Backend.
+* Integração dos endpoints com as regras de negócio.
+* Integração das APIs com o Banco de Dados.
+* Tratamento das respostas retornadas ao Frontend.
+* Implementação do tratamento de erros para situações inesperadas.
+* Validação dos dados recebidos nas requisições.
+* Realização de testes dos endpoints desenvolvidos.
+* Correção de problemas relacionados às requisições e respostas.
+* Ajustes nos endpoints para garantir uma comunicação adequada entre as diferentes camadas da aplicação.
+
+#### US10 – Integração entre Backend, Frontend e Banco de Dados
+
+* Participação na integração das diferentes camadas que compõem o sistema.
+* Adequação das funcionalidades do Backend para atender às necessidades do Frontend.
+* Tratamento das informações enviadas pelas telas da aplicação.
+* Garantia de que os dados recebidos pelo Backend fossem corretamente processados e armazenados.
+* Integração das respostas da API com as funcionalidades utilizadas pelo Frontend.
+* Identificação de problemas de comunicação entre as camadas da aplicação.
+* Correção de inconsistências relacionadas ao formato e processamento dos dados.
+* Realização de testes de fluxo completo, desde a solicitação realizada pelo usuário até sua persistência no Banco de Dados.
+* Validação das informações retornadas pela aplicação.
+* Ajustes nas funcionalidades para garantir um funcionamento integrado entre as diferentes partes do projeto.
+
+#### US11 – Testes, correções e manutenção das funcionalidades
+
+* Realização de testes durante o desenvolvimento das funcionalidades.
+* Identificação de erros de lógica e integração.
+* Correção de problemas encontrados durante a execução do sistema.
+* Validação dos fluxos principais das funcionalidades desenvolvidas.
+* Testes das requisições realizadas pela API.
+* Verificação da correta persistência das informações.
+* Testes de diferentes cenários de utilização.
+* Correção de inconsistências encontradas durante a integração entre as partes do sistema.
+* Realização de ajustes nas regras de negócio conforme os problemas identificados.
+* Revisão das funcionalidades antes de sua integração com o restante do projeto.
+* Auxílio na identificação de problemas que poderiam afetar outras funcionalidades da aplicação.
+
+#### US12 – Versionamento e integração do desenvolvimento
+
+* Utilização do Git para controle das alterações realizadas no projeto.
+* Organização das alterações desenvolvidas individualmente para posterior integração ao projeto da equipe.
+* Realização de commits relacionados às funcionalidades implementadas.
+* Participação na integração das alterações realizadas pelos integrantes da equipe.
+* Identificação de conflitos durante o desenvolvimento colaborativo.
+* Correção de conflitos de código quando necessário.
+* Organização do código para facilitar a continuidade do desenvolvimento.
+* Acompanhamento das alterações realizadas pelos demais integrantes.
+* Manutenção da integração entre as funcionalidades desenvolvidas por diferentes membros da equipe.
+* Participação na revisão e correção de problemas identificados após a integração das funcionalidades.
+
+### Resumo da atuação
+
+De forma geral, minha participação no Bifrost Connect esteve voltada para o **desenvolvimento das funcionalidades do sistema, implementação das regras de negócio, criação e integração das APIs, comunicação com o Banco de Dados e integração entre as diferentes camadas da aplicação**.
+
+Além da implementação das funcionalidades, também participei da identificação e correção de erros, realização de testes, validação dos fluxos e integração do código desenvolvido com o trabalho dos demais integrantes da equipe. Dessa forma, minha contribuição esteve diretamente relacionada à transformação dos requisitos definidos para o projeto em funcionalidades implementadas e funcionais dentro da aplicação.
+
 
 ### Hard Skills
 
